@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b1db617-b1ca-4292-a838-0926b7ce253a" name="Changes" comment="" />
+    <list default="true" id="4b1db617-b1ca-4292-a838-0926b7ce253a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/rca/ac/devops/t1/calculator_backend/endtoendTest/MathApplicationTestEndToEnd.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/projects/backend_calculator",
@@ -68,6 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BackendCalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rca.exam.devops.t1.calculator_backend.BackendCalculatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleCalculatorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rca.exam.devops.calculator_backend.SimpleCalculatorApplication" />
@@ -76,8 +86,10 @@
       </method>
     </configuration>
     <configuration name="SimpleCalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="simpleCalculator" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rca.simplecalculator.SimpleCalculatorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rca.exam.devops.t1.calculator_backend.BackendCalculatorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702885649848</updated>
-      <workItem from="1702885650962" duration="3513000" />
+      <workItem from="1702885650962" duration="7005000" />
     </task>
     <servers />
   </component>
